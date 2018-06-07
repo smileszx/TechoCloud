@@ -1,0 +1,4 @@
+spring:
+  test:
+    key: KEY
+    value: 12345
