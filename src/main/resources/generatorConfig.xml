@@ -7,7 +7,7 @@
     <properties resource="application.properties"/>
 
     <!-- 配置mysql 驱动jar包路径.用了绝对路径 -->
-    <classPathEntry location="D:\maven\repo\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar" />
+    <classPathEntry location="D:\maven\repo\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.45.jar" />
 
     <!-- defaultModelType="flat" 设置复合主键时不单独为主键创建实体 -->
     <context id="MySql" defaultModelType="flat" targetRuntime="MyBatis3">
