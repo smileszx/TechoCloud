@@ -10,4 +10,6 @@ public class Common {
     private String sex;
 
     private String city;
+
+    private Long identify;
 }
