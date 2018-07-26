@@ -1,6 +1,7 @@
 package com.haoqi.tech.controller;
 
 import com.haoqi.tech.dto.TestDTO;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @EnableAutoConfiguration
+@Slf4j
 public class TestController {
 
     @RequestMapping("/")
@@ -18,7 +20,17 @@ public class TestController {
         return testDTO;
     }
 
+
     private String getTest () {
         return "test";
+
+    }
+
+    @RequestMapping("/test")
+    public TestDTO TestGit (){
+
+        TestDTO testDTO = new TestDTO();
+        log.info("Test" + testDTO);
+        return testDTO;
     }
 }
