@@ -17,4 +17,8 @@ public class TestController {
         TestDTO testDTO = new TestDTO();
         return testDTO;
     }
+
+    private String getTest () {
+        return "test";
+    }
 }
