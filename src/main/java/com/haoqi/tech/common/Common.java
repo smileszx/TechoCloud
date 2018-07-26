@@ -14,4 +14,6 @@ public class Common {
     private Long identify;
 
     private Integer num;
+
+    private boolean status;
 }
