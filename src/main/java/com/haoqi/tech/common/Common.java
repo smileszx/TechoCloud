@@ -12,4 +12,6 @@ public class Common {
     private String city;
 
     private Long identify;
+
+    private Long phone;
 }
