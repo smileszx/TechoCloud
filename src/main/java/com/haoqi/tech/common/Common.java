@@ -8,4 +8,6 @@ public class Common {
     private String name;
 
     private String sex;
+
+    private String city;
 }
