@@ -18,4 +18,6 @@ public class Common {
     private Integer num;
 
     private boolean status;
+
+    private int ok;
 }
