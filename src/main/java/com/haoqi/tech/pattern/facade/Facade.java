@@ -5,6 +5,10 @@ package com.haoqi.tech.pattern.facade;
  */
 public class Facade {
     public static void main(String[] args) {
+<<<<<<< HEAD
         
+=======
+        System.out.println("new feature");
+>>>>>>> feature
     }
 }
